@@ -1,0 +1,50 @@
+body {background: black;}
+a.heroPickerIconLink {
+    color: rgb(149, 149, 149);
+    display: block;
+    float: left;
+    height: 33px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    width: 59px;
+    background: rgba(200, 200, 200, 0.3) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-radius: 8px;
+    font: normal normal normal 16px/normal arial, helvetica, sans-serif;
+    margin: 0px 0px 3px 2px;
+    outline: rgb(149, 149, 149) none 0px;
+    padding: 4px;
+}
+
+a.heroPickerIconLink:hover /*img.heroHoverLarge*/ {
+  /*display: block;*/
+  background: rgba(200, 200, 200, 1) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+img.heroHoverLarge {
+    box-shadow: rgb(28, 30, 30) 0px 0px 4px 4px;
+    color: rgb(149, 149, 149);
+    display: none;
+    height: 71px;
+    left: -34px;
+    position: absolute;
+    text-align: left;
+    top: -19px;
+    width: 127px;
+    z-index: 3;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal normal 16px/normal arial, helvetica, sans-serif;
+    outline: rgb(149, 149, 149) none 0px;
+    padding: 1px;
+}
+
+img.heroHoverSmall {
+    color: rgb(149, 149, 149);
+    height: 33px;
+    text-align: left;
+    width: 59px;
+    border: 0px none rgb(149, 149, 149);
+    font: normal normal normal 16px/normal arial, helvetica, sans-serif;
+    outline: rgb(149, 149, 149) none 0px;
+}
