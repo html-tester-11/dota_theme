@@ -1,0 +1,7 @@
+.container {
+	background: radial-gradient(circle, #b5b5b5, #353535);
+}
+
+#sf {
+	display: none;
+}
