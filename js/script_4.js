@@ -1,0 +1,1 @@
+$('.card').attr('draggable', true);
